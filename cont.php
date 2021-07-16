@@ -1,6 +1,6 @@
 <?php
 
-
+/*database connection to contact page*/
 
 $mysqli =new mysqli('localhost', 'root', '', 'group') or die(mysqli_error($mysqli));
 
