@@ -66,3 +66,18 @@ if($result->num_rows>0){
 }
 }
 
+if(isset($_POST['update'])){
+
+$id=$_POST['id'];
+$name=$_POST['name'];
+$email=$_POST['email'];
+$gender=$_POST['gender'];
+$course=$_POST['course'];
+$level=$_POST['level'];
+$phone=$_POST['phone'];
+$mysqli->query("UPDATE data SET name='$name',email='$email',gender='$gender',course='$course',level='$level',phone='$phone' WHERE id=$id") or die ($mysqli->error);
+$_SESSION['massage']="Record has been updated!";
+$_SESSION['msg_type']="warning";
+header("location:edit.php");
+
+}
