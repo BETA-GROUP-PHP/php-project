@@ -1,0 +1,36 @@
+<?php ccs
+.nav
+
+
+
+
+
+
+
+.mysection{
+    padding:0.5rem;
+    width: auto;
+    
+
+}
+.header{
+    min-height: 50vh;
+    width: 100%;
+    background-color: grey;
+}
+.glass{
+
+    min-height: 50vh;
+    width: 100%;
+    background-color: rgba(128, 128, 128, 0.576);
+
+
+
+}
+.paper{
+    padding:0.5rem;
+    width: auto;
+    
+
+}
+
