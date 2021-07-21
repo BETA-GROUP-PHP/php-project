@@ -33,7 +33,7 @@ unset ($_SESSION['massage']);
 	<section class="col-12 col-sm-6 col-md-3">
 
 
-form class="form-container" action="process.php" method="POST">
+<form class="form-container" action="process.php" method="POST">
   <div class="form-group">
     <label for="name">Name:</label>
     <input type="text" name="name" class="form-control" placeholder="Enter name" required>

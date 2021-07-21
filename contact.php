@@ -4,17 +4,23 @@ include 'navbar.php';
 ?>
 
 
+
 <?php
+
 if(isset($_SESSION['massage'])): ?>
+
   <div class="alert alert-<?=$_SESSION['msg_type']?>">
 <?php
 
 echo $_SESSION['massage'];
 
-
+unset ($_SESSION['massage']);
 
 ?>
-<?php endif; ?>
+</div>
+<?php
+  endif
+  ?>
 
 
 <div>

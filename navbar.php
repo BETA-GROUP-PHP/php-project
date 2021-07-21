@@ -1,4 +1,3 @@
-/*navigation bar */
 
 
 <body>
